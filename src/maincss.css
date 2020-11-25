@@ -1,0 +1,199 @@
+
+
+    body {
+      background-color:white;
+      color:#111;
+    }
+
+    .monospace {
+      font-family: "Lucida Console", Courier, monospace;
+    }
+
+    .wrapper {
+        display: flex;
+        width: 100%;
+        align-items: stretch;
+    }
+
+/* ############################################## sidebar ################################################### */
+
+    #sidebar {
+        min-width: 250px;
+        max-width: 250px;
+        background: #fff;
+        color: #fff;
+        transition: all 0.3s;
+        text-align:ltr;
+
+          /* position: fixed; */
+          height: 100%;
+          overflow: auto;
+
+    }
+
+    #sidebar.active {
+        margin-left: -250px;
+    }
+
+    #sidebar .sidebar-header {
+        padding: 20px;
+        background: #111;
+    }
+
+    #sidebar ul.components {
+    padding: 15px;
+    }
+
+    #sidebar ul p {
+        color: #fff;
+        padding: 10px;
+    }
+
+    #sidebar ul li a {
+        padding: 10px;
+        color: #111;
+        font-size: 1.1em;
+        display: block;
+    }
+
+    #sidebar ul li a:hover {
+        color: #7386D5;
+        background: #fff;
+    }
+
+    #sidebar ul li.active>a,
+    a[aria-expanded="true"] {
+        color: #fff;
+        background: #6d7fcc;
+    }
+
+    a[data-toggle="collapse"] {
+        position: relative;
+    }
+
+    .dropdown-toggle::after {
+        display: block;
+        position: absolute;
+        top: 50%;
+        right: 20px;
+        transform: translateY(-50%);
+    }
+
+    ul ul a {
+        font-size: 0.9em !important;
+        padding-left: 30px !important;
+        background: #6d7fcc;
+    }
+
+    ul.CTAs {
+        padding: 20px;
+    }
+
+    ul.CTAs a {
+        text-align: center;
+        font-size: 0.9em !important;
+        display: block;
+        border-radius: 5px;
+        margin-bottom: 5px;
+    }
+
+    a.download {
+        background: #fff;
+        color: #7386D5;
+    }
+
+    a.article,
+    a.article:hover {
+        background: #6d7fcc !important;
+        color: #fff !important;
+    }
+
+    #allR{
+        color: grey;
+        position: absolute;
+        bottom: 10px;
+        /*bottom: 80px;*/
+        left: 20px;
+        font-size: 14px;
+    }
+
+/* ############################################## topOfPage ################################################### */
+
+    #topOfPage a {
+        padding-top: 15px;
+        padding-right: 35px;
+        padding-left: 10px;
+        color: #111;
+        font-size: 1.4em;
+    }
+
+/* ############################################## content ################################################### */
+
+    #content {
+        width: 100%;
+        padding: 20px;
+        min-height: 100vh;
+        text-align:center;
+        transition: all 0.3s;
+    }
+
+/* ############################################## media ################################################### */
+
+    @media (max-width: 700px) {
+    #sidebar {
+        margin-left: -250px;
+    }
+    #sidebar.active {
+        margin-left: 0;
+    }
+    #sidebarCollapse span {
+        display: none;
+    }
+}
+
+
+/* ############################################### gallery ############################################### */
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  width: 100%;
+  height: auto;
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.responsive {
+  padding: 5px 7.5px 10px;
+  float: left;
+  width: 33%;  /* this will change the number of images on row */
+}
+
+@media only screen and (max-width: 1000px) {
+  .responsive {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+div.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
