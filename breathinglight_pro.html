@@ -1,0 +1,162 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+    <link rel="stylesheet" href="maincss.css">
+    <link rel="stylesheet" href="apoc_pro.css">
+
+
+    <title>project page</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-bg bg-white navbar-light sticky-top">
+    <div id = "topOfPage">
+        <a class="navbar-brand"  href="mainPage.html">Maya Prozan</a>
+
+        <button type="button" id="sidebarCollapse" class="btn btn-white">
+            <i class="fa fa-align-justify"></i>
+        </button>
+
+        <button type="button" id = "rightTop" class="btn btn-white">
+            <a target="_blank" href="https://www.linkedin.com/in/mayaprozan/">
+                <img src="icon_linkdin.png" alt="link" style="width:25px;">
+            </a>
+        </button>
+
+        <button type="button"  id = "rightTop2" class="btn btn-white">
+            <a target="_blank"  href="https://github.com/mayapro">
+                <img src="git_icon.png" alt="link" style="width:25px;">
+            </a>
+        </button>
+    </div>
+</nav>
+
+
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar" >
+
+        <ul class="list-unstyled components">
+            <li>
+                <a href="about.html">AboutMe</a>
+            </li>
+            <li>
+                <!--<li class="active">-->
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">codeAndDesign</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="apoc_pro.html">Apoc</a>
+                    </li>
+                    <li>
+                        <a href="origame_pro.html">OrigaMee</a>
+                    </li>
+                    <li>
+                        <a href="silentjewel.html">HandJewel</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Design</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="smell_pro.html">CapSoul</a>
+                    </li>
+                    <li>
+                        <a href="watch_pro.html">BlindWatch</a>
+                    </li>
+                    <li>
+                        <a href="soymilk.html">joy-soyMaker</a>
+                    </li>
+                    <li>
+                        <a href="breathinglight_pro.html">BreathingLight</a>
+                    </li>
+                </ul>
+            </li>
+            <!--<li>-->
+                <!--<a href="#">Contact</a>-->
+            <!--</li>-->
+        </ul>
+
+    </nav>
+
+
+    <div id = "content">
+
+        <div class="item2">
+
+            <div class="responsiveText">
+                <div class="galleryAbout">
+                    <h3  class="monospace" >Breathing Light</h3>
+
+                    <p  class="monospace">
+                        BreathingLight is a lamp for people who need a little help falling asleep.
+                    </p>
+
+                    <p class="monospace">
+                        With a tender light and a "lung" that swells and falls in a relaxing rhythm
+                        that simulate breathing it is easier to get into a mind sate of sleep.
+
+                    </p>
+
+                    <p  class="monospace">
+
+                        The breathing act was achieved with an old computer fan that is
+                        controlled with an Arduino chip and the wooden part is made out of citrus trunk.
+                    </p>
+
+                </div>
+            </div>
+
+        <div class="responsive2">
+            <div class="gallery2">
+                <a target="_blank" href="pics/lamp1.jpg">
+                    <img id="my-img1" src="pics/lamp1.jpg"  alt="lamp" width="400" />
+                </a>
+            </div>
+        </div>
+
+        <div class="responsive2">
+            <div class="gallery2">
+                <a target="_blank" href="pics/lamp2.jpg">
+                    <img id="my-img2" src="pics/lamp2.jpg"  alt="lamp" width="400" />
+                </a>
+            </div>
+        </div>
+
+        <div class="responsive1">
+            <div class="galleryBreathingLight">
+                <a target="_blank" href="pics/lamp4.jpg">
+                    <img id="my-img3" src="pics/lamp4.jpg"  alt="lamp" width="400" />
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    <h3 id="allR">&copy Maya Prozan 2020</h3>
+
+</div>
+
+<script>
+
+         $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+
+        });
+
+    </script>
+</body>
+</html>
