@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+    <link rel="stylesheet" href="apoc_pro.css">
+    <link rel="stylesheet" href="maincss.css">
+
+
+    <title>project page</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-bg bg-white navbar-light sticky-top">
+    <div id = "topOfPage">
+        <a class="navbar-brand"  href="index.html">Maya Prozan</a>
+
+        <button type="button" id="sidebarCollapse" class="btn btn-white">
+            <i class="fa fa-align-justify"></i>
+        </button>
+
+        <button type="button" id = "rightTop" class="btn btn-white">
+            <a target="_blank" href="https://www.linkedin.com/in/mayaprozan/">
+                <img src="icon_linkdin.png" alt="link" style="width:25px;">
+            </a>
+        </button>
+
+        <button type="button"  id = "rightTop2" class="btn btn-white">
+            <a target="_blank"  href="https://github.com/mayapro">
+                <img src="git_icon.png" alt="link" style="width:25px;">
+            </a>
+        </button>
+    </div>
+</nav>
+
+
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar" >
+
+        <ul class="list-unstyled components">
+            <li>
+                <a href="about.html">AboutMe</a>
+            </li>
+            <li>
+                <!--<li class="active">-->
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">codeAndDesign</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="apoc_pro.html">Apoc</a>
+                    </li>
+                    <li>
+                        <a href="origame_pro.html">OrigaMee</a>
+                    </li>
+                    <li>
+                        <a href="silentjewel.html">HandJewel</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Design</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="smell_pro.html">CapSoul</a>
+                    </li>
+                    <li>
+                        <a href="watch_pro.html">BlindWatch</a>
+                    </li>
+                    <li>
+                        <a href="soymilk.html">joy-soyMaker</a>
+                    </li>
+                    <li>
+                        <a href="breathinglight_pro.html">BreathingLight</a>
+                    </li>
+                </ul>
+            </li>
+            <li>
+                <a href="#">Contact</a>
+            </li>
+        </ul>
+
+    </nav>
+
+
+    <div id = "content">
+
+        <div class="responsiveText">
+            <div class="galleryAbout">
+                <h3  class="monospace" >BlindWatch</h3>
+
+                <p  class="monospace">
+                    The blindWatch is representing a thought about time and what are
+                    watches for in the 21st century.
+                    <br>
+                    Do we really need them?
+                    Is being a jewelry or a status symbol is all that is left for them?
+                    Could they carry another essence?
+
+                </p>
+
+                <p class="monospace">
+                    The blindWatch can be wear from both side,
+                    the brass one allows the user to hear the clock ticking and the
+                    time passing but wouldn’t tell the hour nor the minute.
+                    The 3d printed side reveals the watch hands but they are in the same
+                    length from both of their sides and the hour can be read at a 6 hours
+                    different and the minute at a 30 minutes different.
+
+                </p>
+
+                <p  class="monospace">
+                    The clock was designed in SolidWorks, printed in 3d half with vax then
+                    casted brass and half with polymeric material.
+                    The hands are aluminum that was cut in laser and the watch straps are Leather.
+                </p>
+
+            </div>
+        </div>
+
+        <div class="responsive1">
+            <div class="gallery1">
+                <a target="_blank" href="pics/watch2.jpg">
+                    <img id="my-img1" src="pics/watch2.jpg"  alt="smell" width="720" height="480"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="responsive1">
+                <div class="gallery1">
+                    <a target="_blank" href="pics/watch3.jpg">
+                        <img id="my-img2" src="pics/watch3.jpg"  alt="smell" width="720" height="480"/>
+                    </a>
+                </div>
+            </div>
+
+        <div class="responsive2">
+            <div class="gallery2">
+                <a target="_blank" href="pics/watch4.jpg">
+                    <img id="my-img3" src="pics/watch4.jpg"  alt="smell" width="400" height="600"/>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="responsive2">
+            <div class="gallery2">
+                <a target="_blank" href="pics/watch5.jpg">
+                    <img id="my-img4" src="pics/watch5.jpg"  alt="smell" width="400" height="600"/>
+                </a>
+            </div>
+        </div>
+
+
+
+    </div>
+    <h3 id="allR">&copy Maya Prozan 2020</h3>
+
+</div>
+
+<script>
+
+         $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+
+        });
+
+
+    </script>
+</body>
+</html>

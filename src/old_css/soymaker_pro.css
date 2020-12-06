@@ -1,0 +1,40 @@
+
+
+.responsive1 {
+  padding: 10px 10px 10px;
+  float: left;
+  width: 100%;  /* this will change the number of images on row */
+}
+
+.responsive2 {
+  padding: 10px 5px 10px;
+  float: left;
+  width: 50%;  /* this will change the number of images on row */
+}
+
+div.gallery1Soy img {
+  width: 90%;
+  height: auto;
+}
+
+div.gallery2Soy img {
+  width: 80%;
+  height: auto;
+}
+
+@media only screen and (max-width: 900px) {
+  .responsive2 {
+    width: 50%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 650px) {
+  .responsive2 {
+    width: 100%;
+  }
+}
+
+
+
+

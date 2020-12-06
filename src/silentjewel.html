@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+    <link rel="stylesheet" href="apoc_pro.css">
+    <link rel="stylesheet" href="maincss.css">
+
+
+    <title>project page</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-bg bg-white navbar-light sticky-top">
+    <div id = "topOfPage">
+        <a class="navbar-brand"  href="index.html">Maya Prozan</a>
+
+        <button type="button" id="sidebarCollapse" class="btn btn-white">
+            <i class="fa fa-align-justify"></i>
+        </button>
+
+        <button type="button" id = "rightTop" class="btn btn-white">
+            <a target="_blank" href="https://www.linkedin.com/in/mayaprozan/">
+                <img src="icon_linkdin.png" alt="link" style="width:25px;">
+            </a>
+        </button>
+
+        <button type="button"  id = "rightTop2" class="btn btn-white">
+            <a target="_blank"  href="https://github.com/mayapro">
+                <img src="git_icon.png" alt="link" style="width:25px;">
+            </a>
+        </button>
+    </div>
+</nav>
+
+
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar" >
+
+        <ul class="list-unstyled components">
+            <li>
+                <a href="about.html">AboutMe</a>
+            </li>
+            <li>
+                <!--<li class="active">-->
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">codeAndDesign</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="apoc_pro.html">Apoc</a>
+                    </li>
+                    <li>
+                        <a href="origame_pro.html">OrigaMee</a>
+                    </li>
+                    <li>
+                        <a href="silentjewel.html">HandJewel</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Design</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="smell_pro.html">CapSoul</a>
+                    </li>
+                    <li>
+                        <a href="watch_pro.html">BlindWatch</a>
+                    </li>
+                    <li>
+                        <a href="soymilk.html">joy-soyMaker</a>
+                    </li>
+                    <li>
+                        <a href="breathinglight_pro.html">BreathingLight</a>
+                    </li>
+                </ul>
+            </li>
+            <!--<li>-->
+                <!--<a href="#">Contact</a>-->
+            <!--</li>-->
+        </ul>
+
+    </nav>
+
+
+
+    <div id = "content">
+
+        <div class="responsiveText">
+            <div class="galleryAbout">
+                <h3  class="monospace" >SilentJewel</h3>
+
+                <p  class="monospace">
+                    An interactive tool for teaching American Sign Language.
+                    <br>
+                    The jewel is made out of copper, electric wires and 3 3d printed details
+                    that were designed specific to hold 2 sensors –
+                    MPU-6050 and Piezo vibration sensor and one small speaker.
+
+                </p>
+
+                <p  class="monospace">
+                    Combined with Arduino Uno board a code written in c++ and a user interface in Rhino,
+                    <br>
+                    the jewel is able to recognize different sign language gestures and respond accordingly.
+
+                </p>
+
+                <p  class="monospace">
+                    The process of learning the sign gestures has 2 phases-
+                    <br>
+                    First the virtual agent on the screen is showing how to sign a word
+                    and then the user has to gesture it himself.
+                    <br>
+                    Second, the user can improvise and constructs a new sentence
+                    from the words he learned and the virtual agents respond accordingly.
+                </p>
+                <p  class="monospace">
+                    SilentJewel was created in collaboration with Batsheva Schiff,
+                    <br>
+                    as a final project in the course "Human Computer Interaction" in the Hebrew university of Jerusalem.
+                </p>
+            </div>
+        </div>
+
+        <div class="responsive1">
+            <div class="gallery1">
+                <video id = "video1" width="750" height="500" loop="true" autoplay="autoplay" controls="controls">
+                    <source src="pics/handV.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+
+        <div class="responsive5">
+            <div class="gallery1">
+                <a target="_blank" href="pics/hand1.jpg">
+                    <img id="hand1" src="pics/2from4.jpg"  alt="smell" width="750" height="500"/>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="responsive5">
+            <div class="gallery1">
+                <a target="_blank" href="pics/hand2.jpg">
+                    <img id="hand2" src="pics/1from5.jpg"  alt="smell" width="750" height="500"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="responsive5">
+            <div class="gallery1">
+                <a target="_blank" href="pics/hand.jpg">
+                    <img id=hand3" src="pics/3from2.jpg"  alt="smell" width="750" height="500"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="responsive5">
+            <div class="gallery1">
+                <a target="_blank" href="pics/hand.jpg">
+                    <img id="hand4" src="pics/4from3.jpg"  alt="smell" width="750" height="500"/>
+                </a>
+            </div>
+        </div>
+
+        <div class="responsive5">
+            <div class="gallery1">
+                <a target="_blank" href="pics/hand.jpg">
+                    <img id="hand5" src="pics/5from1.jpg"  alt="smell" width="750" height="500"/>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="responsive1">
+            <div class="gallery1">
+                <a href="smell_pro.html">
+                    <img id="my-gif" src="pics/handgif6.gif" onmouseover="hover(this, 6);" onmouseout="unhover(this, 6);"/>
+                </a>
+            </div>
+        </div>
+
+
+    </div>
+    <h3 id="allR">&copy Maya Prozan 2020</h3>
+
+</div>
+
+<script>
+
+         $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+
+        });
+
+        var myVideo = document.getElementById("video1");
+
+        function playPause() {
+          if (myVideo.paused)
+            myVideo.play();
+          else
+            myVideo.pause();
+        }
+
+
+    </script>
+</body>
+</html>

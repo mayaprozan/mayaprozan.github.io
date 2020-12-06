@@ -1,0 +1,195 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+
+    <link rel="stylesheet" href="apoc_pro.css">
+    <link rel="stylesheet" href="maincss.css">
+
+
+    <title>project page</title>
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-bg bg-white navbar-light sticky-top">
+    <div id = "topOfPage">
+        <a class="navbar-brand"  href="index.html">Maya Prozan</a>
+
+        <button type="button" id="sidebarCollapse" class="btn btn-white">
+            <i class="fa fa-align-justify"></i>
+        </button>
+
+        <button type="button" id = "rightTop" class="btn btn-white">
+            <a target="_blank" href="https://www.linkedin.com/in/mayaprozan/">
+                <img src="icon_linkdin.png" alt="link" style="width:25px;">
+            </a>
+        </button>
+
+        <button type="button"  id = "rightTop2" class="btn btn-white">
+            <a target="_blank"  href="https://github.com/mayapro">
+                <img src="git_icon.png" alt="link" style="width:25px;">
+            </a>
+        </button>
+    </div>
+</nav>
+
+
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <nav id="sidebar" >
+
+        <ul class="list-unstyled components">
+            <li>
+                <a href="about.html">AboutMe</a>
+            </li>
+            <li>
+                <!--<li class="active">-->
+                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">codeAndDesign</a>
+                <ul class="collapse list-unstyled" id="homeSubmenu">
+                    <li>
+                        <a href="apoc_pro.html">Apoc</a>
+                    </li>
+                    <li>
+                        <a href="origame_pro.html">OrigaMee</a>
+                    </li>
+                    <li>
+                        <a href="silentjewel.html">HandJewel</a>
+                    </li>
+                </ul>
+            </li>
+
+            <li>
+                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Design</a>
+                <ul class="collapse list-unstyled" id="pageSubmenu">
+                    <li>
+                        <a href="smell_pro.html">CapSoul</a>
+                    </li>
+                    <li>
+                        <a href="watch_pro.html">BlindWatch</a>
+                    </li>
+                    <li>
+                        <a href="soymilk.html">joy-soyMaker</a>
+                    </li>
+                    <li>
+                        <a href="breathinglight_pro.html">BreathingLight</a>
+                    </li>
+                </ul>
+            </li>
+            <!--<li>-->
+                <!--<a href="#">Contact</a>-->
+            <!--</li>-->
+        </ul>
+
+    </nav>
+
+
+    <div id = "content">
+        <div class="responsiveText">
+            <div class="galleryAbout">
+        <h3  class="monospace" >Apoc</h3>
+
+        <p  class="monospace">
+        Preppers are individuals who actively prepare for emergencies,
+            <br> including possible disruptions in social or political order,
+        on scales from local to international.
+        <br>
+        The emphasis is on self-reliance, stockpiling supplies, and gaining survival knowledge and skills.
+        </p>
+
+        <p  class="monospace">
+        Apoc is an app that was created in order to aid the preppers achieve their goals
+            based on their fears from different disasters.
+            <br>
+            Based on their location the app allows the users to find groups or individuals
+            (if they want it) to prepare together.
+            <br>
+            It also create the group and the individual a list of items they need to gather
+            in order to get ready to their specific fears based on a database.
+        </p>
+
+        <p  class="monospace">
+        Once a group is formed its members can locate their group members base locations,
+            see the activity of the group members,
+            <br>
+            get messages from the leader and send an SOS SMS with their current location to the group members.
+        </p>
+        <p  class="monospace">
+        Apoc was written in java, in android studio, in collaboration with Guy Bloomenfeld,
+            <br>
+            as a final project in the course "post pc" in the Hebrew university of Jerusalem.
+        </p>
+            </div>
+        </div>
+
+
+        <div class="responsive1">
+            <div class="gallery1">
+                <video id = "video1" width="750" height="500" loop="true" autoplay="autoplay" controls="controls">
+                    <source src="pics/appApoc.mp4" type="video/mp4">
+                    <!--<source src="pics/appApoc.ogg" type="video/ogg">-->
+                    Your browser does not support the video tag.
+                </video>
+            </div>
+        </div>
+
+
+        <div class="responsive1">
+            <div class="gallery1">
+                <a target="_blank" href="pics/apoc2-01.jpg">
+                    <img id="my-img1" src="pics/apoc2-01.jpg"  alt="smell" width="750" height="500"/>
+                </a>
+            </div>
+        </div>
+
+
+        <div class="responsive1">
+            <div class="gallery1">
+                <a target="_blank" href="pics/apoc4-01.jpg">
+                    <img id="my-img2" src="pics/apoc4-01.jpg"  alt="smell" width="750" height="500"/>
+                </a>
+            </div>
+        </div>
+
+
+        <!--<div class="item4">-->
+                <!--&lt;!&ndash;<a target="_blank" href="pics/smell1.jpg">&ndash;&gt;-->
+                    <!--&lt;!&ndash;<img id="my-img3" src="pics/smell1.jpg"  alt="smell" width="600" height="400"/>&ndash;&gt;-->
+                <!--&lt;!&ndash;</a>&ndash;&gt;-->
+            <!--</div>-->
+
+
+    </div>
+    <h3 id="allR">&copy Maya Prozan 2020</h3>
+
+</div>
+
+<script>
+
+         $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+
+        });
+
+        var myVideo = document.getElementById("video1");
+
+        function playPause() {
+          if (myVideo.paused)
+            myVideo.play();
+          else
+            myVideo.pause();
+        }
+
+
+    </script>
+</body>
+</html>
