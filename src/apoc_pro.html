@@ -9,13 +9,14 @@
     <link rel="stylesheet" href="maincss.css">
 
 
-    <title>Apoc - App</title>
+    <title>Apoc-App</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 
 </head>
 <body>
@@ -44,52 +45,7 @@
 
 <div class="wrapper">
     <!-- Sidebar  -->
-    <nav id="sidebar" >
-
-        <ul class="list-unstyled components">
-            <li>
-                <a href="about.html">AboutMe</a>
-            </li>
-            <li>
-                <!--<li class="active">-->
-                <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">codeAndDesign</a>
-                <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li>
-                        <a href="apoc_pro.html">Apoc</a>
-                    </li>
-                    <li>
-                        <a href="origame_pro.html">OrigaMee</a>
-                    </li>
-                    <li>
-                        <a href="silentjewel.html">silentjewel</a>
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Design</a>
-                <ul class="collapse list-unstyled" id="pageSubmenu">
-                    <li>
-                        <a href="smell_pro.html">CapSoul</a>
-                    </li>
-                    <li>
-                        <a href="watch_pro.html">BlindWatch</a>
-                    </li>
-                    <li>
-                        <a href="soymilk.html">joy-soyMaker</a>
-                    </li>
-                    <li>
-                        <a href="breathinglight_pro.html">BreathingLight</a>
-                    </li>
-                </ul>
-            </li>
-            <!--<li>-->
-                <!--<a href="#">Contact</a>-->
-            <!--</li>-->
-        </ul>
-
-    </nav>
-
+    <div id="mainSidebar2"></div>
 
     <div id = "content">
         <div class="responsiveText">
@@ -172,6 +128,9 @@
 </div>
 
 <script>
+        $(function(){
+          $("#mainSidebar2").load("sideNav2.html");
+        });
 
          $(document).ready(function () {
             $('#sidebarCollapse').on('click', function () {

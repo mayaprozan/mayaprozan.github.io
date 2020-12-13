@@ -18,9 +18,8 @@
 
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
-
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
 </head>
-
 
 
 <body>
@@ -52,56 +51,9 @@
 
 <div class="wrapper">
     <!-- Sidebar  -->
-    <nav id="sidebar" >
-        <!--<div class="sidebar-header">-->
-            <!--<h3>Maya Prozan</h3>-->
-        <!--</div>-->
-
-        <ul class="list-unstyled components">
-            <li>
-                <a href="src/about.html">AboutMe</a>
-            </li>
-            <li>
-            <!--<li class="active">-->
-            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">codeAndDesign</a>
-                <ul class="collapse list-unstyled" id="homeSubmenu">
-                    <li>
-                        <a href="src/apoc_pro.html">Apoc</a>
-                    </li>
-                    <li>
-                        <a href="src/origame_pro.html">OrigaMee</a>
-                    </li>
-                    <li>
-                        <a href="src/silentjewel.html">SilentJewel</a>
-                    </li>
-                </ul>
-            </li>
-
-            <li>
-                <a href="#pageSubmenu" data-toggle="collapse" aria-expanded="false" class="dropdown-toggle">Design</a>
-                <ul class="collapse list-unstyled" id="pageSubmenu">
-                    <li>
-                        <a href="src/smell_pro.html">CapSoul</a>
-                    </li>
-                    <li>
-                        <a href="src/watch_pro.html">BlindWatch</a>
-                    </li>
-                    <li>
-                        <a href="src/soymilk.html">joy-soyMaker</a>
-                    </li>
-                    <li>
-                        <a href="src/breathinglight_pro.html">BreathingLight</a>
-                    </li>
-                </ul>
-            </li>
-
-        </ul>
-
-    </nav>
-
+    <div id="mainSidebar"></div>
 
     <div id = "content">
-
 
         <div class="responsive_gif">
             <div class="gallery">
@@ -171,6 +123,11 @@
 
 
     <script>
+        $(function(){
+          $("#mainSidebar").load("src/sideNav.html");
+        });
+
+
         var pics = ["pics/smell2.jpg", "pics/lamp.jpg", "pics/watch.jpg" ,"pics/soy12.jpg", "pics/apoc.jpg", "pics/origame.jpg","pics/handgif4.gif" ];
         var pics_names = ["pics/screens/capsoul2.jpg" , "pics/screens/breathinglight2.jpg", "pics/screens/blindW2.jpg",
                             "pics/screens/soymilk2.jpg","pics/screens/apoc2.jpg",  "pics/screens/origamee2.jpg", "pics/screens/handjewel2.jpg"];
