@@ -201,16 +201,17 @@ div.gallery img {
 }
 
 .responsiveAbout {
-  padding: 5px 7.5px 5px;
+  padding: 5px 7.5px 5px 7.5px;
   float: left;
   width: 50%;  /* this will change the number of images on row */
-}
+ }
+
 
 div.galleryAbout img {
   width: 100%;
   height: auto;
-      margin-top: 2em;
-      margin-left: 1em;
+  margin-top: 2em;
+  margin-left: 1em;
 }
 
 
