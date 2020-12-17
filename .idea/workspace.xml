@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="174bd845-1905-40f3-8a7b-269d256c3116" name="Default" comment="added favicon">
+    <list default="true" id="174bd845-1905-40f3-8a7b-269d256c3116" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/breathinglight_pro.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/breathinglight_pro.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -14,7 +15,7 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="260">
@@ -78,11 +79,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="about.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="about.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/about.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1200">
-              <caret line="60" selection-start-line="60" selection-end-line="60" />
+            <state relative-caret-position="1520">
+              <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -112,8 +113,8 @@
       <file leaf-file-name="breathinglight_pro.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/breathinglight_pro.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
+            <state relative-caret-position="140">
+              <caret line="50" selection-start-line="50" selection-end-line="50" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -125,7 +126,7 @@
       <file leaf-file-name="soymilk.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/soymilk.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="200">
+            <state relative-caret-position="-728">
               <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
               <folding>
                 <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -188,10 +189,10 @@
         <option value="$PROJECT_DIR$/src/smell_pro.html" />
         <option value="$PROJECT_DIR$/src/origame_pro.html" />
         <option value="$PROJECT_DIR$/src/watch_pro.html" />
-        <option value="$PROJECT_DIR$/src/breathinglight_pro.html" />
         <option value="$PROJECT_DIR$/src/soymilk.html" />
-        <option value="$PROJECT_DIR$/src/about.html" />
         <option value="$PROJECT_DIR$/src/maincss.css" />
+        <option value="$PROJECT_DIR$/src/about.html" />
+        <option value="$PROJECT_DIR$/src/breathinglight_pro.html" />
       </list>
     </option>
   </component>
@@ -416,7 +417,14 @@
       <option name="project" value="LOCAL" />
       <updated>1608221465679</updated>
     </task>
-    <option name="localTasksCounter" value="15" />
+    <task id="LOCAL-00015" summary="fixed about me">
+      <created>1608222263295</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1608222263295</updated>
+    </task>
+    <option name="localTasksCounter" value="16" />
     <servers />
   </component>
   <component name="ToolWindowManager">
@@ -517,7 +525,8 @@
     <MESSAGE value="fixed images links + titles" />
     <MESSAGE value="silentJewel screen fixed" />
     <MESSAGE value="added favicon" />
-    <option name="LAST_COMMIT_MESSAGE" value="added favicon" />
+    <MESSAGE value="fixed about me" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed about me" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/breathinglight_pro.html">
@@ -899,28 +908,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/breathinglight_pro.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="56" selection-start-line="11" selection-start-column="56" selection-end-line="11" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/soymilk.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/origame_pro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -946,16 +933,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/index.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
-          <folding>
-            <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/watch_pro.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1000">
@@ -969,11 +946,43 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/about.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1200">
-          <caret line="60" selection-start-line="60" selection-end-line="60" />
+        <state relative-caret-position="1520">
+          <caret line="76" column="4" selection-start-line="76" selection-start-column="4" selection-end-line="76" selection-end-column="4" />
           <folding>
             <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/soymilk.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-728">
+          <caret line="10" column="56" selection-start-line="10" selection-start-column="56" selection-end-line="10" selection-end-column="56" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/breathinglight_pro.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="140">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#2;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="76" lean-forward="true" selection-start-line="76" selection-end-line="76" />
+          <folding>
+            <element signature="n#style#0;n#img#0;n#a#0;n#button#1;n#div#0;n#nav#0;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
         </state>
       </provider>
