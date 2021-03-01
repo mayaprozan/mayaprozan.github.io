@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://netdna.bootstrapcdn.com/font-awesome/4.0.3/css/font-awesome.css">
+    <link rel="stylesheet" href="apoc_pro.css">
+    <link rel="stylesheet" href="maincss.css">
+
+    <title>Anina-site</title>
+    <link rel="shortcut icon" type="image/png" href="../favicon-dark.png">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+    <script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+
+</head>
+<body>
+<nav class="navbar navbar-expand-bg bg-white navbar-light sticky-top">
+    <div id = "topOfPage">
+        <a class="navbar-brand"  href="../index.html">Maya Prozan</a>
+
+        <button type="button" id="sidebarCollapse" class="btn btn-white">
+            <i class="fa fa-align-justify"></i>
+        </button>
+
+        <button type="button" id = "rightTop" class="btn btn-white">
+            <a target="_blank" href="https://www.linkedin.com/in/mayaprozan/">
+                <img src="../icon_linkdin.png" alt="link" style="width:25px;">
+            </a>
+        </button>
+
+        <button type="button"  id = "rightTop2" class="btn btn-white">
+            <a target="_blank"  href="https://github.com/mayapro">
+                <img src="../git_icon.png" alt="link" style="width:25px;">
+            </a>
+        </button>
+    </div>
+</nav>
+
+
+<div class="wrapper">
+    <!-- Sidebar  -->
+    <div id="mainSidebar2"></div>
+
+    <div id = "content">
+        <div class="responsiveText">
+            <div class="galleryAbout">
+                <h3  class="monospace" >Anina</h3>
+
+                <p  class="monospace">
+                    Anina is a startup in the food tech industry.
+                </p>
+
+                <p  class="monospace">
+                    This is the site I built and designed for them.
+                </p>
+
+            </div>
+        </div>
+
+
+
+        <div class="responsive1">
+            <div class="gallery1">
+                <a target="_blank" href="../pics/anina_front-01.jpg">
+                    <img id="my-img1" src="../pics/anina_front-01.jpg"  alt="smell" width="750" height="500"/>
+                </a>
+            </div>
+        </div>
+
+
+        <!--<div class="responsive1">-->
+            <!--<div class="gallery1">-->
+                <!--<a target="_blank" href="../pics/apoc4-01.jpg">-->
+                    <!--<img id="my-img2" src="../pics/apoc4-01.jpg"  alt="smell" width="750" height="500"/>-->
+                <!--</a>-->
+            <!--</div>-->
+        <!--</div>-->
+
+
+        <!--<div class="item4">-->
+        <!--&lt;!&ndash;<a target="_blank" href="pics/smell1.jpg">&ndash;&gt;-->
+        <!--&lt;!&ndash;<img id="my-img3" src="pics/smell1.jpg"  alt="smell" width="600" height="400"/>&ndash;&gt;-->
+        <!--&lt;!&ndash;</a>&ndash;&gt;-->
+        <!--</div>-->
+
+
+    </div>
+    <h3 id="allR">&copy Maya Prozan 2020</h3>
+
+</div>
+
+<script>
+        $(function(){
+          $("#mainSidebar2").load("sideNav2.html");
+        });
+
+         $(document).ready(function () {
+            $('#sidebarCollapse').on('click', function () {
+                $('#sidebar').toggleClass('active');
+            });
+
+        });
+
+        var myVideo = document.getElementById("video1");
+
+        function playPause() {
+          if (myVideo.paused)
+            myVideo.play();
+          else
+            myVideo.pause();
+        }
+
+
+    </script>
+</body>
+</html>
