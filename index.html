@@ -64,7 +64,7 @@
         <div class="responsive_gif">
             <div class="gallery">
                 <a href="src/anina_site.html">
-                    <img id="anina_img" src="pics/anina_front.jpg" />
+                    <img id="anina_img" src="pics/anina_front.jpg" onmouseover="hover(this, 6);" onmouseout="unhover(this, 6);"/>
                     <!--<img src="smell-edited.jpg" alt="smell" width="600" height="400">-->
                 </a>
             </div>
@@ -145,9 +145,11 @@
         });
 
 
-        var pics = ["pics/smell2.jpg", "pics/lamp.jpg", "pics/watch.jpg" ,"pics/soy12.jpg", "pics/apoc.jpg", "pics/origame.jpg","pics/handgif4.gif" ];
+        var pics = ["pics/smell2.jpg", "pics/lamp.jpg", "pics/watch.jpg" ,"pics/soy12.jpg", "pics/apoc.jpg",
+         "pics/origame.jpg","pics/handgif4.gif", "pics/anina_front.jpg" ];
         var pics_names = ["pics/screens/capsoul2.jpg" , "pics/screens/breathinglight2.jpg", "pics/screens/blindW2.jpg",
-                            "pics/screens/soymilk2.jpg","pics/screens/apoc2.jpg",  "pics/screens/origamee2.jpg", "pics/screens/silentJewel.jpg"];
+                            "pics/screens/soymilk2.jpg","pics/screens/apoc2.jpg",
+                              "pics/screens/origamee2.jpg", "pics/screens/silentJewel.jpg", "pics/screens/anina.jpg"];
 
 
         function hover(element, num) {
